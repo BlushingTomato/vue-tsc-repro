@@ -1,0 +1,19 @@
+{
+  "name": "vue-tsc-repro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^2.3.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2",
+    "vue": "^2.7.16",
+    "vue-tsc": "^2.1.4"
+  }
+}
